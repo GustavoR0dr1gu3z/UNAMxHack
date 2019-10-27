@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_puebla"
+    android:background="@drawable/fondopuebla">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="389dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="           Puebla"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="401dp"
+                android:layout_height="39dp"
+                android:textColor="#FFFFFF"
+                android:text="   Ignacio Zaragoza" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="220dp"
+                android:layout_height="112dp"
+                android:src="@drawable/ignaciozaragoza" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fue un reconocido militar mexicano que peleó durante la igualmente afamada Batalla del 5 de Mayo. Si bien la guerra contra el Ejército Francés en 1862 fue perdida, esta defensa es recordada hasta el día actual.Zaragoza, a los treinta y tres años, muere de tifus murino contraída por infestación de piojos, consecuencia de las fatigas y de la insalubridad de la campaña el 8 de septiembre de 1862. Sus restos fueron trasladados a la capital y enterrados en el Museo Panteón de San Fernando ubicado en la Ciudad de México."
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="#FFFFFF"
+                android:text="Elena Garro" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:src="@drawable/elenagarro" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="De los personajes históricos poblanos, ella fue esposa del único ganador del Premio Nobel de Literatura de México: Octavio Paz. Desgraciadamente, la enorme sombra de su esposo casi siempre ha opacado la gran obra de esta mujer, muchas veces ignorada. Es considerada como una de las precursoras del realismo mágico gracias a su novela, Los Recuerdos del Porvenir." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

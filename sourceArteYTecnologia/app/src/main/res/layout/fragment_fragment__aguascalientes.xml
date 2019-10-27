@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoaguascal"
+    tools:context=".fragment_Aguascalientes">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="             Aguascalientes"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="398dp"
+                android:layout_height="117dp"
+                android:layout_weight="1"
+                android:text="Antonio Acevedo Escobedo" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:src="@drawable/antonioacevedo" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Nació en Aguascalientes, Aguascalientes, el 23 de enero de 1909; murió en la ciudad de México el 4 de febrero de 1985. Ensayista y narrador. Fue tipógrafo, cronista de cine y jefe de información de Renacimiento; jefe del Departamento de Literatura del inba; jefe de redacción de Artes del Libro y de la Revista Universidad de México. Miembro del scm y de la Academia Mexicana de la Lengua. Colaboró en Excélsior, El Hijo Pródigo, El Nacional, El Universal Ilustrado, Fábula, Letras de México, Noctámbulas, Renacimiento y Revista de Revistas. Doctor honoris causa 1980 por la Universidad de Aguascalientes. Premio Nacional de Periodismo 1982 por divulgación cultural.
+
+" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
