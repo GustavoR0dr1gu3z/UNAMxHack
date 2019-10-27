@@ -30,6 +30,10 @@ h1{
     background-image: url("img/puebla.jpg"); 
     background-size: cover;   
 }
+.imagen3{
+    background-image: url("img/quijote.png"); 
+    background-size: cover;   
+}
 
 .letra1{
     background: white;
